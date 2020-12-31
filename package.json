@@ -1,0 +1,18 @@
+{
+  "name": "node-postgre",
+  "version": "1.0.0",
+  "description": "Consultas a postgre con node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

@@ -1,0 +1,5 @@
+\l: listo las base de datos
+
+\c basededatos: me conecto a la base de datos que quiero utilizar
+
+\dt: listamos las tablas de nuestra base de datos
