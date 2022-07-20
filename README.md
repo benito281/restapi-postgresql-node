@@ -1,1 +1,1 @@
-# PostgreSQL-restapi-nodejs
+# restapi-postgresql-nodejs
