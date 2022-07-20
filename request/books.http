@@ -1,0 +1,30 @@
+### GET ALL BOOKS
+GET http://localhost:3000/
+
+### INSERT A BOOK
+POST  http://localhost:3000/book/insert
+Content-Type: application/json 
+
+{
+  "id": 6,
+  "title": "The Lord of the Rings",
+  "editorial": "J.R.R. Tolkien"
+}
+###  UPDATE A BOOK
+PUT http://localhost:3000/book/update/4
+Content-Type: application/json
+
+{
+  "title": "The Lord of the Rings",
+  "editorial": "J.R.R. Tolkien",
+  "area": "Fantasy",
+  "cover_url": "https://images-na.ssl-images-amazon.com/images/I/51Zu%2BtqLjmL.jpg",
+  "digital_url": "https://www.amazon.com/Lord-Rings-JRR-Tolkien/dp/0486453337",
+  "available_physical" : false
+}
+
+###DELETE A BOOK
+DELETE http://localhost:3000/book/delete/6
+
+### GET A BOOK
+GET http://localhost:3000/book/get/4
